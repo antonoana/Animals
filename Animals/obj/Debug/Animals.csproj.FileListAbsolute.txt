@@ -1,0 +1,6 @@
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\bin\Debug\Animals.exe.config
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\bin\Debug\Animals.exe
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\bin\Debug\Animals.pdb
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\obj\Debug\Animals.exe
+c:\users\oana.anton\documents\visual studio 2017\Projects\Animals\Animals\obj\Debug\Animals.pdb
