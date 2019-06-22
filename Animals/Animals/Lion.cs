@@ -14,8 +14,8 @@ namespace Animals.Animals
         public Lion()
         {
             Name = "Lion";
-            moveBehaviour = new Walks();
-            makeSoundBehaviour = new Roar();
+            MoveBehaviour = new Walks();
+            MakeSoundBehaviour = new Roar();
         }
     }
 }

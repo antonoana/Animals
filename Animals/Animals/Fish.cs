@@ -13,8 +13,8 @@ namespace Animals.Animals
         public Fish()
         {
             Name = Fish;
-            moveBehaviour = new Swim();
-            makeSoundBehaviour = new Silence();
+            MoveBehaviour = new Swim();
+            MakeSoundBehaviour = new Silence();
         }
     }
 }

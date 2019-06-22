@@ -47,6 +47,7 @@
     <Compile Include="Animals\Fish.cs" />
     <Compile Include="Animals\Lion.cs" />
     <Compile Include="MakeSound\Chirp.cs" />
+    <Compile Include="MakeSound\Purr.cs" />
     <Compile Include="MakeSound\Roar.cs" />
     <Compile Include="MakeSound\Silence.cs" />
     <Compile Include="Move\Fly.cs" />

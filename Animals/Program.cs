@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Animals.Animals;
+using Animals.MakeSound;
+using Animals.Move;
 
 namespace Animals
 {
@@ -17,6 +19,14 @@ namespace Animals
             animals.Add(new Lion());
             animals.Add(new Bird());
             animals.Add(new Fish());
+
+            foreach (var animal in animals)
+            {
+                animal.Display();
+            }
+
+            animals[0].ChangeMoveBehaviour(new Swim());
+            animals[0].ChangeSoundBehaviour(new Purr());
 
             foreach (var animal in animals)
             {

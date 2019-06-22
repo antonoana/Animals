@@ -9,18 +9,27 @@ namespace Animals
     public abstract class Animal
     {
         public string Name;
-        public string Aspect;
-        public MoveBehaviour moveBehaviour;
-        public MakeSoundBehaviour makeSoundBehaviour;
+        public MoveBehaviour MoveBehaviour;
+        public MakeSoundBehaviour MakeSoundBehaviour;
 
         public void Move()
         {
-            moveBehaviour.Move();
+            MoveBehaviour.Move();
         }
 
         public void MakeSound()
         {
-            makeSoundBehaviour.MakeSound();
+            MakeSoundBehaviour.MakeSound();
+        }
+
+        public void ChangeMoveBehaviour(MoveBehaviour moveBehaviour)
+        {
+            MoveBehaviour = moveBehaviour;
+        }
+
+        public void ChangeSoundBehaviour (MakeSoundBehaviour soundBehaviour)
+        {
+            MakeSoundBehaviour = soundBehaviour;
         }
 
         public void Display()

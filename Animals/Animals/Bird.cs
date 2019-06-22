@@ -13,8 +13,8 @@ namespace Animals.Animals
         public Bird()
         {
             Name = "Bird";
-            moveBehaviour = new Fly();
-            makeSoundBehaviour = new Chirp();
+            MoveBehaviour = new Fly();
+            MakeSoundBehaviour = new Chirp();
         }
     }
 }
